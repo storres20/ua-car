@@ -1,5 +1,7 @@
 # UA-CAR 🚗
 
+![grafico_funciones_uacar](https://github.com/user-attachments/assets/e0fa9647-3c83-439b-a893-e3c8a6c1c346)
+
 **First closed beta version of UA-CAR.**  
 - Real-time Wi-Fi robot control.  
 - Directional movement buttons.  
@@ -90,7 +92,7 @@ eas build -p android --profile production
 
 ## 📸 App Preview
 
-*(You can add screenshots or GIFs of the app UI here)*
+![captura_celular_x2](https://github.com/user-attachments/assets/5ec5ba15-0a51-4efa-acbe-42189fde85cf)
 
 ---
 
