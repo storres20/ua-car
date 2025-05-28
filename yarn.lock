@@ -1013,10 +1013,10 @@
     semver "^7.6.2"
     zod "^3.23.8"
 
-"@expo/eas-json@16.1.0":
-  version "16.1.0"
-  resolved "https://registry.yarnpkg.com/@expo/eas-json/-/eas-json-16.1.0.tgz#d83991c2eff60b395f6ce154d07df8d25008256b"
-  integrity sha512-/z7w9C8rqVM4KlUABAJ+jFGuaE8K7KGP8e38iYami1cc3xxT6RV9L4y9p/wdtRlPzU+RRo+JkcXA5DlxNmOVpg==
+"@expo/eas-json@16.4.0":
+  version "16.4.0"
+  resolved "https://registry.yarnpkg.com/@expo/eas-json/-/eas-json-16.4.0.tgz#1df242216a5c22fd16892cb5523340dc09dce2c0"
+  integrity sha512-ROfbHGmczU+5izF3w4RFB7dtpPYGxu8lMR+M0e+ixfyKexeumoIoNl8IiuXb/VW5gLMQf5mFXgDk9dWk9ZbOmQ==
   dependencies:
     "@babel/code-frame" "7.23.5"
     "@expo/eas-build-job" "1.0.173"
@@ -2408,7 +2408,7 @@ bplist-parser@0.3.1:
   dependencies:
     big-integer "1.6.x"
 
-bplist-parser@^0.3.1:
+bplist-parser@^0.3.0, bplist-parser@^0.3.1:
   version "0.3.2"
   resolved "https://registry.yarnpkg.com/bplist-parser/-/bplist-parser-0.3.2.tgz#3ac79d67ec52c4c107893e0237eb787cbacbced7"
   integrity sha512-apC2+fspHGI3mMKj+dGevkGo/tCqVB8jMb6i+OX+E29p0Iposz07fABkRIfVUPNd5A5VbuOz1bZbnmkKLYF+wQ==
@@ -3015,17 +3015,17 @@ dunder-proto@^1.0.1:
     es-errors "^1.3.0"
     gopd "^1.2.0"
 
-eas-cli@^16.3.2:
-  version "16.3.2"
-  resolved "https://registry.yarnpkg.com/eas-cli/-/eas-cli-16.3.2.tgz#d6d39a6ceb08a911c13083099f674d0afe7660e0"
-  integrity sha512-hWmZFziEdxKz2OWb2naabXOXA9X22dqF7T1AyICwHF1jisdHXeyEFV3Rligk/p8SuQ0E6qEEcigCTZbSXS3d9A==
+eas-cli@^16.6.2:
+  version "16.6.2"
+  resolved "https://registry.yarnpkg.com/eas-cli/-/eas-cli-16.6.2.tgz#49543a2f5b369705e3fd9711d09dc6a317dea749"
+  integrity sha512-Jv69fifjmqzb+JdTE+80JeZyVXj0bWHw8/P2IWM7kuCDxOFcp4S5a+CPHxaetlFgFkW91wzrXMkF2lLRFisRwg==
   dependencies:
     "@expo/apple-utils" "2.1.12"
     "@expo/code-signing-certificates" "0.0.5"
     "@expo/config" "10.0.6"
     "@expo/config-plugins" "9.0.12"
     "@expo/eas-build-job" "1.0.173"
-    "@expo/eas-json" "16.1.0"
+    "@expo/eas-json" "16.4.0"
     "@expo/env" "^1.0.0"
     "@expo/json-file" "8.3.3"
     "@expo/logger" "1.0.117"
@@ -3050,6 +3050,7 @@ eas-cli@^16.3.2:
     ajv "8.11.0"
     ajv-formats "2.1.1"
     better-opn "3.0.2"
+    bplist-parser "^0.3.0"
     chalk "4.1.2"
     cli-progress "3.12.0"
     dateformat "4.6.3"
